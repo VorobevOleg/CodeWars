@@ -15,9 +15,10 @@ package com.codewars;
 public class ASum {
     public static long findNb(long m) {
         int n = 0;
+
         do {
             n++;
-            m -= Math.pow(n,3);
+            m-= (long)Math.pow(n,3);
         } while (m > 0);
 
         if (m == 0) {

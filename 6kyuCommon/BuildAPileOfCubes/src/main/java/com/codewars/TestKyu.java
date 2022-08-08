@@ -6,7 +6,7 @@ import static org.testng.AssertJUnit.assertEquals;
 public class TestKyu {
     @Test
     public void test1() {
-        assertEquals(2022, ASum.findNb(4183059834009L));
+        assertEquals(51659, ASum.findNb(1780495179842880900L));
     }
     @Test
     public void test2() {
